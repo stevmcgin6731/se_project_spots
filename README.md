@@ -20,6 +20,22 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 Good luck and have fun!
 
+# Spots
+
+An image sharing site
+
+## Description
+
+TODO- Describe the project and its functionality
+
+## Tech Stack
+
+-HTML
+-CSS
+-Responsive Design
+
 ## Deployment
 
--Deployment Link: https://github.com/stevmcgin6731/se_project_spots
+This webpage is deployed to Github pages
+
+-Deployment Link:
