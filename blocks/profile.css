@@ -34,11 +34,39 @@
 }
 
 .profile__edit-btn {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 1;
+  gap: 8px;
   margin-top: auto;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 .profile__add-btn {
+  display: flex;
   margin-left: auto;
+  width: 149px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #212121;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fcf5e5;
+  align-self: flex-end;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__add-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {

@@ -1,4 +1,5 @@
 .card__image {
+  border-radius: 8px;
   height: 413px;
   width: 100%;
   object-fit: cover;
@@ -12,12 +13,19 @@
 }
 
 .card__like-btn {
-  background-image: url(../images/union.svg.svg);
+  background-image: url(../images/like-icon-dark.svg);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+
+.card__like-btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
