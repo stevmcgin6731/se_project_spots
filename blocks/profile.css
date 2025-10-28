@@ -37,12 +37,19 @@
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
+  background-color: transparent;
+  border: none;
   line-height: 100%;
   letter-spacing: 0%;
   opacity: 1;
   gap: 8px;
   margin-top: auto;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.profile__edit-btn:hover {
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -78,7 +85,7 @@
     padding-top: 20px;
   }
 
-  .profile-avatar {
+  .profile__avatar {
     margin-right: 0;
     height: 80px;
   }
