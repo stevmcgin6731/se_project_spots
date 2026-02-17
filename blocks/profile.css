@@ -34,13 +34,13 @@
 }
 
 .profile__edit-btn {
+  display: flex;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   background-color: transparent;
   border: none;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   opacity: 1;
   gap: 8px;
   margin-top: auto;
@@ -61,7 +61,7 @@
   border-radius: 8px;
   background-color: #212121;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   color: #fcf5e5;
@@ -69,6 +69,7 @@
   gap: 8px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .profile__add-btn:hover {
@@ -90,8 +91,14 @@
     height: 80px;
   }
 
+  @media screen and (max-width: 627px) {
+    .profile__avatar {
+      width: 80px;
+    }
+  }
+
   .profile__name {
-    font-size: 32px;
+    font-size: 20px;
     margin: 0 0 6px;
     max-width: 288px;
   }
