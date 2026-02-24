@@ -106,32 +106,26 @@
 @media screen and (max-width: 627px) {
   .modal__container {
     padding: 22px 12px 12px;
-    position: relative;
   }
 
   .modal__title {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.2;
-    margin: 0 0 24px;
   }
 
   .modal__input {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
-    padding: 12px;
   }
 
   .modal__submit-btn {
     width: 100%;
-    min-height: 46px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
   }
 
   .modal__close-btn {
-    top: 12px;
+    top: 22px;
     right: 12px;
-    width: 26px;
-    height: 26px;
   }
 }
